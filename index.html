@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smit</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; margin: 4rem auto;">
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <input placeholder="Email" onfocus="this.style.border='5px solid red'" onblur="this.style.border='5px solid green' " type="email" name="Email" id="Email">
+            <input placeholder="Password" onfocus="this.style.border='5px solid red'" onblur="this.style.border='5px solid green' " type="password" name="Password" id="Password">
+            <button onmouseover="alert('Are you sure to send?')" >Confirm ?</button>
+            <button onclick="popScreen(),this.style.backgroundColor='green'" >Send</button>
+            <a href="javascript:void(0)"></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
